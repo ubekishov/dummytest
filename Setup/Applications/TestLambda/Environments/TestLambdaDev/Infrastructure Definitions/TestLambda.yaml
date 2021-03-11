@@ -1,0 +1,17 @@
+harnessApiVersion: '1.0'
+type: INFRA_DEFINITION
+cloudProviderType: AWS
+deploymentType: ECS
+infrastructure:
+- type: AWS_ECS
+  assignPublicIp: false
+  cloudProviderName: AWSPipelinedev
+  clusterName: DE-Vault-Cluster
+  launchType: EC2
+  region: us-west-2
+  securityGroupIds:
+  - sg-08e64a3d2f5415b7b
+  subnetIds:
+  - subnet-01f984ae61f20bc37
+  - subnet-0691a12439d4c70ee
+  vpcId: vpc-06a6485f15449efb4
