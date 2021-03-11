@@ -4,7 +4,7 @@ cloudProviderType: AWS
 infrastructure:
 - type: AWS_AWS_LAMBDA
   cloudProviderName: AWSPipelinedev
-  iamRole: arn:aws:iam::759984737373:role/Delegate-EC2-Management
+  iamRole: arn:aws:iam::167119639465:role/FordApp-de-jenkins-dev-server
   region: us-west-2
   securityGroupIds:
   - sg-08e64a3d2f5415b7b
